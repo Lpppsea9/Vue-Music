@@ -15,7 +15,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 
     //检测文件空行
-    'eol-last':0,
-    'space-before-function-paren':0
+    'eol-last': 0,
+    'space-before-function-paren': 0
   }
 }
