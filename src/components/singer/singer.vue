@@ -1,5 +1,7 @@
 <template>
-  <div>歌手</div>
+  <div>
+    歌手界面
+  </div>
 </template>
 
 <script>
@@ -8,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
 
-</style>
+</style>>

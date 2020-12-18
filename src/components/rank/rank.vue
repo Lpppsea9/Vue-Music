@@ -1,6 +1,6 @@
 <template>
   <div>
-    歌手排行
+    排行界面
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
 
-</style>
+</style>>
