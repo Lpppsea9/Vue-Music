@@ -1,16 +1,16 @@
 <template>
   <div class="tab">
     <router-link tag="div" class="tab-item" to="/recommend">
-      <span>推荐</span>
+      <span class="tab-span">推荐</span>
     </router-link>
     <router-link tag="div" class="tab-item" to="/singer">
-      <span>歌手</span>
+      <span class="tab-span">歌手</span>
     </router-link>
     <router-link tag="div" class="tab-item" to="/rank">
-      <span>排行</span>
+      <span class="tab-span">排行</span>
     </router-link>
     <router-link tag="div" class="tab-item" to="/search">
-      <span>搜索</span>
+      <span class="tab-span">搜索</span>
     </router-link>
   </div>
 </template>
@@ -22,9 +22,16 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import "~common/stylus/variable";
   .tab
     display flex
     height 44px
     line-height 44px
-
+    font-size $font-size-medium //14px
+    .tab-item
+      flex 1
+      text-align center
+      .tab-span
+        padding-bottom: 5px
+        color $color-text-1
 </style>>
