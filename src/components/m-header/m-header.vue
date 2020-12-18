@@ -6,10 +6,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+
+}
 </script>
 
 <style lang="stylus" scoped rel="stylesheet/stylus">
+  //@import ~是stylus-loader的东西，~common表示相对common,和webpack相关
   @import '~common/stylus/variable';
   @import '~common/stylus/mixin';
 
@@ -30,8 +33,8 @@ export default {}
       margin-right 9px
     .text
       display inline-block
-      // vertical-align top
       line-height 44px
       font-size $font-size-large
+      // vertical-align top
 
 </style>
