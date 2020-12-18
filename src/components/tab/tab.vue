@@ -33,5 +33,10 @@ export default {
       text-align center
       .tab-span
         padding-bottom: 5px
-        color $color-text-1
+        color $color-text-l
+      // &.router-link-active
+      //   .tab-span
+      //     color $color-theme // #ffcd32
+      //     border-bottom 2px solid $color-theme
+
 </style>>
